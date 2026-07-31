@@ -197,7 +197,7 @@ const translations = {
   }
 };
 
-function setLanguage(lang) {
+function setLanguage(lang, notify = false) {
   currentLang = lang;
   localStorage.setItem('ask_consulting_lang', lang);
   document.documentElement.setAttribute('lang', lang);
@@ -231,7 +231,9 @@ function setLanguage(lang) {
 
   renderPublicView();
 
-  showToast(lang === 'en' ? 'Language switched to English (EN)' : 'Bahasa diubah ke Bahasa Indonesia (ID)', 'info');
+  if (notify) {
+    showToast(lang === 'en' ? 'Language switched to English (EN)' : 'Bahasa diubah ke Bahasa Indonesia (ID)', 'info');
+  }
 }
 
 // ==========================================================================
@@ -249,7 +251,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initContactForm();
   initArticleReaderModal();
   checkAdminLoginRoute();
-  setLanguage(currentLang);
+  setLanguage(currentLang, false);
 });
 
 async function loadDataStore() {
@@ -259,7 +261,6 @@ async function loadDataStore() {
     if (res.ok) {
       appState = await res.json();
       localStorage.setItem(STORAGE_KEY, JSON.stringify(appState));
-      showToast('Data CMS terhubung ke Database Server (db.json).', 'info');
       return;
     }
   } catch (err) {
@@ -271,7 +272,6 @@ async function loadDataStore() {
   if (localData) {
     try {
       appState = JSON.parse(localData);
-      showToast('Data CMS dimuat dari penyimpanan lokal.', 'info');
       return;
     } catch (e) {
       console.error('Gagal membaca data localStorage:', e);

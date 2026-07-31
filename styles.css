@@ -1265,7 +1265,7 @@ p {
   border-radius: var(--radius-md);
   background: var(--bg-surface);
   border: 1px solid var(--primary-cyan);
-  color: #ffffff;
+  color: #036b28;
   font-size: 0.9rem;
   box-shadow: var(--shadow-card), var(--shadow-glow);
   display: flex;
