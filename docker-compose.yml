@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  ask-consulting-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ask-consulting-web
+    restart: unless-stopped
+    ports:
+      - "${PORT:-5000}:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASS=${ADMIN_PASS:-askconsulting2026}
+    volumes:
+      - ./db.json:/app/db.json
+      - ./uploads:/app/uploads

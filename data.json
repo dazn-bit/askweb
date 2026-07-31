@@ -1,0 +1,252 @@
+{
+  "company": {
+    "name": "ASK Consulting",
+    "legalName": "PT Andromeda Sinergi Komputasi",
+    "tagline": "Application • System • Network",
+    "description": "ASK (Andromeda Sinergi Komputasi) berdiri secara resmi di Jakarta sejak 2017, dikelola oleh tim ahli berpengalaman lebih dari 15 tahun di bidang teknologi informasi. Kami menjawab kebutuhan klien dan mengembangkan kreativitas melalui kerja berdedikasi.",
+    "mission": "To become client's valued partner by providing ultimate supports and answers to the clients needs",
+    "vision": "Menjadi perusahaan teknologi terdepan yang memberikan transformasi digital berkelanjutan bagi setiap klien",
+    "phone": "+62 822 9901 0304",
+    "contactPerson": "Erick Dazki",
+    "email": "info@askconsulting.co.id",
+    "website": "askconsulting.co.id",
+    "websiteSecondary": "askconsulting.asia",
+    "address": "Eltima Corner, Jl. Bangka VIII A No.B2, Pela Mampang, Kec. Mampang Prpt., Jakarta Selatan, DKI Jakarta 12720",
+    "stats": {
+      "estYear": "2017",
+      "experienceYears": "15+",
+      "clients": "7+",
+      "mainPillars": "3"
+    }
+  },
+  "advantages": [
+    {
+      "id": "adv-1",
+      "icon": "fa-circle-check",
+      "title": "Pengalaman & Keahlian",
+      "description": "Tim kami berpengalaman 15+ tahun di berbagai proyek IT skala nasional dan enterprise."
+    },
+    {
+      "id": "adv-2",
+      "icon": "fa-sliders",
+      "title": "Solusi Customized",
+      "description": "Setiap solusi dirancang khusus sesuai proses bisnis dan kebutuhan unik masing-masing klien."
+    },
+    {
+      "id": "adv-3",
+      "icon": "fa-handshake",
+      "title": "Partner Jangka Panjang",
+      "description": "Kami membangun hubungan kemitraan jangka panjang, bukan sekadar transaksi proyek satu kali."
+    },
+    {
+      "id": "adv-4",
+      "icon": "fa-shield-halved",
+      "title": "Keamanan & Keandalan",
+      "description": "Standar keamanan enterprise: dari enkripsi data hingga disaster recovery plan."
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "icon": "fa-laptop-code",
+      "title": "Application & Software Development",
+      "category": "Application",
+      "shortDesc": "Pengembangan perangkat lunak kustom, ERP/CRM, aplikasi web & mobile, integrasi API, serta BI & reporting.",
+      "fullDesc": "Solusi aplikasi enterprise terintegrasi yang dibangun sesuai kebutuhan alur kerja bisnis Anda, mempercepat efisiensi operasional dan skalabilitas bisnis.",
+      "features": [
+        "Customer Relationship Management (CRM)",
+        "Enterprise Resource Planning (ERP)",
+        "Fleet & Asset Management System",
+        "Web Portal & Mobile Application",
+        "API Integration & Middleware",
+        "Business Intelligence & Reporting",
+        "Enterprise Architecture & Governance",
+        "Learning Management System (LMS)"
+      ]
+    },
+    {
+      "id": "srv-2",
+      "icon": "fa-server",
+      "title": "System Infrastructure & Architecture",
+      "category": "System",
+      "shortDesc": "Manajemen infrastruktur TI, server management, migrasi cloud, virtualisasi, dan audit sistem IT.",
+      "fullDesc": "Perancangan dan pengelolaan infrastruktur server enterprise yang tangguh, aman, dan siap menghadapi beban kerja tinggi dengan tingkat keandalan maksimal.",
+      "features": [
+        "IT Infrastructure & Data Center",
+        "Cloud Computing & Migration Strategy",
+        "Virtualization & Server Consolidation",
+        "IT Audit & Readiness Assessment",
+        "Disaster Recovery & Business Continuity",
+        "Enterprise System Optimization"
+      ]
+    },
+    {
+      "id": "srv-3",
+      "icon": "fa-network-wired",
+      "title": "Network Design & Managed Services",
+      "category": "Network",
+      "shortDesc": "Desain jaringan, keamanan cyber, firewall & VPN, NOC monitoring, serta layanan IT managed services.",
+      "fullDesc": "Solusi topologi jaringan enterprise modern yang aman dari celah siber, terintegrasi 24/7 dengan dukungan Network Operations Center (NOC).",
+      "features": [
+        "Network Design & Security Architecture",
+        "Firewall, VPN & Access Control",
+        "NOC Services & 24/7 Monitoring",
+        "IT Support & Helpdesk Services",
+        "IT Human Resources Outsourcing",
+        "IT Training & Professional Certification"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli-1",
+      "name": "Kementerian Pertahanan RI",
+      "category": "Pemerintahan",
+      "description": "Pengembangan infrastruktur TI dan penguatan sistem keamanan siber nasional.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_Kementerian_Pertahanan_Republik_Indonesia.png/320px-Logo_Kementerian_Pertahanan_Republik_Indonesia.png"
+    },
+    {
+      "id": "cli-2",
+      "name": "Telkom Indonesia",
+      "category": "Telekomunikasi",
+      "description": "Modernisasi platform portal digital dan integrasi sistem telekomunikasi.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Telkom_Indonesia_2013_logo.svg/320px-Telkom_Indonesia_2013_logo.svg.png"
+    },
+    {
+      "id": "cli-3",
+      "name": "Lintasarta",
+      "category": "Telekomunikasi",
+      "description": "Layanan NOC monitoring dan asesmen keandalan infrastruktur jaringan data center.",
+      "icon": "https://upload.wikimedia.org/wikipedia/id/thumb/3/3b/Logo_Lintasarta.svg/320px-Logo_Lintasarta.svg.png"
+    },
+    {
+      "id": "cli-4",
+      "name": "Bank Rakyat Indonesia (BRI)",
+      "category": "Perbankan",
+      "description": "Integrasi sistem enterprise dan optimalisasi arsitektur perbankan.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/BRI_2020.svg/320px-BRI_2020.svg.png"
+    },
+    {
+      "id": "cli-5",
+      "name": "PT Summarecon Agung Tbk",
+      "category": "Properti & Korporasi",
+      "description": "Pengembangan sistem infrastruktur dan manajemen jaringan properti terpadu.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Summarecon_logo.png/320px-Summarecon_logo.png"
+    },
+    {
+      "id": "cli-6",
+      "name": "Persatuan Guru RI (PGRI)",
+      "category": "Pendidikan",
+      "description": "Pengembangan Learning Management System dan portal terpadu keanggotaan.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_PGRI.png/320px-Logo_PGRI.png"
+    },
+    {
+      "id": "cli-7",
+      "name": "Pradita University",
+      "category": "Pendidikan",
+      "description": "Implementasi sistem informasi manajemen kampus dan arsitektur IT jaringan.",
+      "icon": "https://upload.wikimedia.org/wikipedia/id/thumb/7/7b/Pradita_University_logo.png/300px-Pradita_University_logo.png"
+    },
+    {
+      "id": "cli-8",
+      "name": "Universitas Esa Unggul (UEU)",
+      "category": "Pendidikan",
+      "description": "Pengembangan portal akademik dan sistem pembelajaran digital.",
+      "icon": "https://upload.wikimedia.org/wikipedia/id/thumb/4/4e/Logo_Universitas_Esa_Unggul.png/320px-Logo_Universitas_Esa_Unggul.png"
+    },
+    {
+      "id": "cli-9",
+      "name": "Prodia Corporate University",
+      "category": "Kesehatan",
+      "description": "Sistem manajemen pembelajaran digital dan portal pengembangan SDM kesehatan.",
+      "icon": "https://upload.wikimedia.org/wikipedia/id/thumb/3/32/Prodia_Logo.svg/320px-Prodia_Logo.svg.png"
+    },
+    {
+      "id": "cli-10",
+      "name": "Universitas Universal",
+      "category": "Pendidikan",
+      "description": "Sistem IT kampus dan infrastruktur pusat data pendidikan.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Logo_Universitas_Universal.png/320px-Logo_Universitas_Universal.png"
+    }
+  ],
+  "team": [
+    {
+      "id": "tm-1",
+      "name": "Erick Dazki",
+      "role": "Principal Consultant & Business Lead",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "bio": "Praktisi senior teknologi informasi berpengalaman 15+ tahun memimpin solusi Application, System, dan Network untuk enterprise di Indonesia."
+    },
+    {
+      "id": "tm-2",
+      "name": "Tim Pakar Systems & Infrastructure",
+      "role": "Lead System & Cloud Architect",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "Spesialis arsitektur server, virtualisasi, dan migrasi cloud skala besar untuk institusi perbankan & pemerintah."
+    },
+    {
+      "id": "tm-3",
+      "name": "Tim Pakar Network & Security",
+      "role": "Senior Network Security Engineer",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "bio": "Pakar audit jaringan, konfigurasi firewall, VPN enterprise, dan NOC 24/7 monitoring."
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-1",
+      "title": "Pengembangan Enterprise Learning Management System",
+      "client": "PRODIA University & PGRI",
+      "category": "Application",
+      "year": "2024",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+      "impact": "Memfasilitasi pembelajaran digital interaktif bagi puluhan ribu tenaga kerja & pengajar.",
+      "description": "Perancangan platform LMS terintegrasi dengan modul analitik performa peserta dan portal pembelajaran mandiri."
+    },
+    {
+      "id": "prj-2",
+      "title": "Modernisasi Jaringan & Security Infrastructure Enterprise",
+      "client": "Telkom Indonesia & Lintasarta",
+      "category": "Network",
+      "year": "2024",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      "impact": "Meningkatkan uptime jaringan hingga 99.99% dan memperkuat keamanan dari insiden siber.",
+      "description": "Audit topologi jaringan, penguatan firewall & VPN enterprise, serta integrasi pemantauan NOC."
+    },
+    {
+      "id": "prj-3",
+      "title": "Implementasi Custom ERP & Fleet Management System",
+      "client": "Mitra Industri Korporasi",
+      "category": "Application",
+      "year": "2023",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      "impact": "Otomatisasi pemantauan aset dan efisiensi rantai pasok hingga 35%.",
+      "description": "Pengembangan modul ERP kustom serta sistem lacak armada real-time berbasis IoT & API gateway."
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "title": "Pentingnya Sinergi Tiga Pilar IT Enterprise: Application, System, dan Network",
+      "category": "Strategi IT Enterprise",
+      "author": "Erick Dazki",
+      "date": "2026-07-20",
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
+      "excerpt": "Bagaimana mensinergikan infrastruktur sistem, jaringan aman, dan aplikasi bisnis untuk pertumbuhan berkelanjutan di era transformasi digital.",
+      "content": "Dalam era transformasi digital yang bergerak sangat cepat, keberhasilan organisasi enterprise tidak hanya ditentukan oleh adopsi salah satu teknologi saja, melainkan bagaimana seluruh ekosistem TI mampu bersinergi secara harmonis.\n\nPT Andromeda Sinergi Komputasi (ASK Consulting) membagi fondasi teknologi ini ke dalam tiga pilar utama: Application, System, dan Network.\n\n1. Pilar Application & Software: Aplikasi kustom, ERP, CRM, dan sistem portal merupakan garda terdepan bisnis yang berinteraksi langsung dengan pengguna. Aplikasi yang baik harus responsif, modular, serta mampu mengolah workflows bisnis secara akurat.\n\n2. Pilar System & Infrastructure: Aplikasi canggih tidak akan mampu bertahan tanpa dukungan server dan arsitektur cloud berkinerja tinggi. Manajemen infrastruktur yang andal memastikan ketersediaan data (high availability), skalabilitas kapasitas, serta jaminan pemulihan bencana (Disaster Recovery Plan).\n\n3. Pilar Network & Security Architecture: Jaringan adalah pembuluh darah informasi bagi enterprise. Dengan penerapan keamanan siber multi-layer, enkripsi data, firewall, dan pemantauan NOC 24/7, seluruh lalu lintas komunikasi organisasi tetap terlindungi dari ancaman peretasan.\n\nSinergi antara Application, System, dan Network adalah kunci utama bagi perusahaan yang ingin membangun ketahanan bisnis digital secara jangka panjang."
+    },
+    {
+      "id": "art-2",
+      "title": "Strategi Migrasi Cloud Native & Manajemen Resiliensi Infrastruktur Server Enterprise",
+      "category": "System & Cloud",
+      "author": "Tim Pakar ASK Consulting",
+      "date": "2026-06-15",
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "excerpt": "Panduan taktis bagi organisasi dalam memindahkan beban kerja server legacy ke cloud tanpa mengganggu operasional bisnis (Zero Downtime).",
+      "content": "Migrasi infrastruktur server dari lingkungan on-premise ke cloud hybrid atau cloud native sering kali menjadi tantangan besar bagi manajemen TI korporasi. Risiko kecemasan downtime dan resiko kehilangan integritas data menjadi perhatian paling utama.\n\nBerikut adalah tahapan mendasar yang direkomendasikan oleh konsultan pakar ASK Consulting:\n\nTahap 1 — Asesmen & Pemetaan Dependensi: Melakukan audit menyeluruh terhadap keterkaitan aplikasi, beban kerja database, serta spesifikasi resource server yang berjalan.\n\nTahap 2 — Perancangan Arsitektur Hybrid Cloud: Menyusun topologi cloud yang sesuai dengan kepatuhan regulasi (seperti UU PDP dan standar ISO 27001), memisahkan data sensitif dengan data komputasi umum.\n\nTahap 3 — Uji Coba Simulasi & Cutover Gradual: Menggunakan strategi pergeseran bertahap (canary deployment) untuk memastikan seluruh proses bisnis berjalan tanpa henti (zero downtime).\n\nDengan perencanaan yang matang dan pendampingan praktisi berpengalaman, proses migrasi cloud dapat berjalan lancar sekaligus memangkas biaya efisiensi operasional TI hingga 30%."
+    }
+  ],
+  "inquiries": []
+}

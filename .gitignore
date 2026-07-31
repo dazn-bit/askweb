@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# User Uploaded Media (Preserve uploads directory structure via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
