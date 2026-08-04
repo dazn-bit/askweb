@@ -261,7 +261,10 @@ async function loadDataStore() {
     if (res.ok) {
       appState = await res.json();
       localStorage.setItem(STORAGE_KEY, JSON.stringify(appState));
+      console.log('⚡ Data CMS berhasil dimuat dari Server REST API (db.json)');
       return;
+    } else {
+      console.warn(`⚠️ Backend API merespon dengan status HTTP ${res.status}`);
     }
   } catch (err) {
     console.warn('Backend REST API tidak terjangkau, menggunakan penyimpanan lokal:', err);
