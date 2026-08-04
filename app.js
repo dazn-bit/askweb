@@ -837,7 +837,7 @@ async function isSessionValid() {
   if (!token) return false;
 
   try {
-    const res = await fetch('/api/auth/verify', {
+    const res = await fetch(API_BASE + '/api/auth/verify', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token })
@@ -900,7 +900,7 @@ function initAdminAuth() {
       if (alertBox) alertBox.style.display = 'none';
 
       try {
-        const res = await fetch('/api/auth/login', {
+        const res = await fetch(API_BASE + '/api/auth/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ username, password })
@@ -966,7 +966,7 @@ function initAdminAuth() {
       const token = getAdminToken();
       if (token) {
         try {
-          await fetch('/api/auth/logout', {
+          await fetch(API_BASE + '/api/auth/logout', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ token })
@@ -984,7 +984,7 @@ function initAdminAuth() {
   }
 }
 
-const API_BASE = window.location.origin.includes('5000') ? '' : 'http://localhost:5000';
+const API_BASE = window.location.protocol === 'file:' ? 'http://localhost:5000' : '';
 
 function cleanAdminUrl() {
   if (window.location.pathname.includes('adminlogin') || window.location.hash.includes('adminlogin')) {
