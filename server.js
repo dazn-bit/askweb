@@ -78,6 +78,15 @@ function rateLimitInquiries(req, res, next) {
 
 // Helper: Ensure database file exists
 function readDatabase() {
+  if (fs.existsSync(DB_FILE) && fs.statSync(DB_FILE).isDirectory()) {
+    console.error('⚠️ DB_FILE is a directory (Docker volume mount collision). Recreating as file...');
+    try {
+      fs.rmdirSync(DB_FILE, { recursive: true });
+    } catch (e) {
+      console.error('Failed to remove directory db.json:', e);
+    }
+  }
+
   if (!fs.existsSync(DB_FILE)) {
     if (fs.existsSync(SEED_FILE)) {
       const seedData = fs.readFileSync(SEED_FILE, 'utf8');
